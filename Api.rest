@@ -1,0 +1,9 @@
+#Landing Page with search option in HTML
+GET http://127.0.0.1:8081
+
+###Search for a place 
+
+POST http://127.0.0.1:8081/getPlace
+{
+    {"name":"melville"}
+}
